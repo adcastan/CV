@@ -4,11 +4,42 @@
 <head>
     <title>CV</title>
     <meta charset="UTF-8">
+    <style>
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 100%;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: royalblue;
+        }
+
+        .biografia {
+            background-color: aqua;
+        }
+
+        .educacion {
+            background-color: red;
+        }
+
+        .idiomas {
+            background-color: yellow;
+        }
+
+        .laboral {
+            background-color: purple    ;
+        }
+
+        footer {
+            font-size: 100%;
+        }
+    </style>
 </head>
 
 <body>
 
-        <nav>
+    <nav>
         <a href="./index.html"> Indice
         </a>
         <ul>
@@ -28,40 +59,42 @@
         <h2>Oscar Adrián Castán López</h2>
         <img src="./Resources/CV_Foto.png">
 
-    </header>        
+    </header>
     <nav>
         <ul>
-        <li>
-            <a href="https://github.com/adcastan"> Github </a>
-        </li>
-        <li>
-            <p>Correo: ocastanlopez@gmail.com</p>
-        </li>
+            <li>
+                <a href="https://github.com/adcastan"> Github </a>
+            </li>
+            <li>
+                <p>Correo: ocastanlopez@gmail.com</p>
+            </li>
         </ul>
-       
+
     </nav>
 
-    <div>
+    <div class="biografia">
         <h2>Mi biografia</h2>
         <p>
             Naci el 18 de noviembre de 2004 en Ciudad Obregón, Sonora.
 
-            Estudié el kinder en el Instituto Pioneros y pasé mi primaria y secundaria en el Instituto Cumbre del Noroeste.
+            Estudié el kinder en el Instituto Pioneros y pasé mi primaria y secundaria en el Instituto Cumbre del
+            Noroeste.
             En esta secundaria conocí mi pasión por la computación.
-            Estudié la preparatoria en Tecmilenio, donde me metí en el grupo de Robotica y participé por tres años en FIRST Robotics Competition.
+            Estudié la preparatoria en Tecmilenio, donde me metí en el grupo de Robotica y participé por tres años en
+            FIRST Robotics Competition.
             Ahí pude acumular experiencia en robotica y programación.
             finalmente, estoy estudiando la universidad en ITSON.
         </p>
     </div>
 
-    <div>
+    <div class="laboral">
         <h3>Mi experiencia laboral</h3>
         <ul>
             <li>3 días de tutor en el Coloquio de ULSA</li>
             <li>7 años en Sportsland Cajeme</li>
         </ul>
     </div>
-    <div>
+    <div class="educacion">
         <h3>Mi educación</h3>
         <li>3 años de kinder bilingüe en Instituto Los Pioneros</li>
         <li>6 años de primaria bilingüe en Instituto Cumbre del Noroeste</li>
@@ -69,7 +102,7 @@
         <li>3 años de preparatoria bilingüe en Tecmilenio</li>
         <li>2 años de Licenciatura en Ingeniería en Software en ITSON</li>
     </div>
-    <div>
+    <div class="idiomas">
         <h3>Idiomas que hablo</h3>
         <ul>
             <li>Español nivel Nativo</li>
@@ -77,9 +110,10 @@
         </ul>
     </div>
 </body>
-    <footer>
-        <div>
-            <p>Oscar Adrián Castán López 2025</p> 
-        </div>
-    </footer>
+<footer>
+    <div>
+        <p>Oscar Adrián Castán López 2025</p>
+    </div>
+</footer>
+
 </html>
